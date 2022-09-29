@@ -73,8 +73,8 @@ export const getUploadedFilesById = async (req, res) => {
     } else {
       // console.log(data)
       let saved = `${__dirname}/${data[0].picpath}`;
-      res.sendFile(saved);
-      // res.download(saved)
+      // res.sendFile(saved);
+      res.download(saved)
     }
   });
 };

@@ -36,9 +36,7 @@ function getData({ state, data, msg }) {
       }" />
         <div class="card-body">
           <h5 class="card-title">${arr[arr.length - 1]}</h5>
-          <a href="${api + "/" + _id}" class="btn btn-primary" download='${
-        api + "/" + _id
-      }' >Download</a>
+          <a href="${api + "/" + _id}" class="btn btn-primary" download="${api + "/" + _id}" >Download</a>
         </div>
       </div>
         `;

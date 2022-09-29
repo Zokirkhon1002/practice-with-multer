@@ -22,7 +22,6 @@ export const uploadingFile = async (
     let { file } = req;
     // console.log(file);
     let pathName = "./assets/images/" + file.filename;
-    
 
     let temp = new picModel({
       picpath: pathName,
